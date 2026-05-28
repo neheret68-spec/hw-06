@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Нещеретний — варіант №5 — hw-06</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/modern-normalize.min.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body id="variant-page">
+    <header class="variant-header">
+      <div class="variant-container">
+        <a class="back-link" href="../index.html">← На головну сторінку</a>
+        <h1>Варіант № 5</h1>
+      </div>
+    </header>
+
+    <main class="variant-main">
+      <table class="variant-layout" aria-label="Макет сторінки за варіантом 5">
+        <colgroup>
+          <col span="12" />
+        </colgroup>
+        <tr class="variant-row-top">
+          <td colspan="6" rowspan="2">
+            <form class="variant-form-box" action="#" method="post">
+              <label for="text-field">Текстове поле:</label>
+              <input
+                type="text"
+                id="text-field"
+                name="text-field"
+                placeholder="Введіть текст"
+              />
+            </form>
+            <table class="top-gallery" aria-label="Рисунки">
+              <tr>
+                <td>
+                  <img
+                    srcset="figure-1.jpg 1x, figure-1@2x.jpg 2x"
+                    src="figure-1.jpg"
+                    width="180"
+                    height="90"
+                    alt="Рисунок 1"
+                  />
+                  <div class="caption">Рисунок 1</div>
+                </td>
+                <td>
+                  <img
+                    srcset="figure-2.png 1x, figure-2@2x.png 2x"
+                    src="figure-2.png"
+                    width="180"
+                    height="90"
+                    alt="Рисунок 2"
+                  />
+                  <div class="caption">Рисунок 2</div>
+                </td>
+                <td>
+                  <img
+                    srcset="figure-3.png 1x, figure-3@2x.png 2x"
+                    src="figure-3.png"
+                    width="180"
+                    height="90"
+                    alt="Рисунок 3"
+                  />
+                  <div class="caption">Рисунок 3</div>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td colspan="3">
+            <a href="https://www.hneu.edu.ua/">Гіперпосилання 1</a>
+          </td>
+          <td class="empty-cell"></td>
+          <td colspan="2">
+            <a href="https://www.hneu.edu.ua/">Гіперпосилання 2</a>
+          </td>
+        </tr>
+        <tr class="variant-row-background">
+          <td class="empty-cell"></td>
+          <td class="empty-cell"></td>
+          <td colspan="4" class="variant-background-cell">
+            <span>Фоновий рисунок</span>
+          </td>
+        </tr>
+        <tr class="variant-row-middle">
+          <td colspan="2" class="color-yellow">Жовтий</td>
+          <td colspan="3" rowspan="2">
+            <ol class="ordered-list" start="15">
+              <li>Реклама</li>
+              <li>Медіа</li>
+              <li>Бізнес</li>
+            </ol>
+          </td>
+          <td colspan="3" class="color-red">Червоний</td>
+          <td class="empty-cell"></td>
+          <td colspan="3" class="color-pink">Рожевий</td>
+        </tr>
+        <tr class="variant-row-list">
+          <td colspan="2" class="empty-cell"></td>
+          <td class="empty-cell"></td>
+          <td class="empty-cell"></td>
+          <td class="empty-cell"></td>
+          <td class="empty-cell"></td>
+          <td colspan="3" rowspan="2">
+            <ul class="mixed-list">
+              <li>Реклама</li>
+              <li>Медіа</li>
+              <li>Бізнес</li>
+            </ul>
+          </td>
+        </tr>
+        <tr class="variant-row-bottom">
+          <td colspan="2">
+            <a href="https://www.hneu.edu.ua/">Гіперпосилання 3</a>
+          </td>
+          <td colspan="5" class="student-mark">
+            <span class="student-big">Я</span>студент<span class="student-small">ХНЕУ</span>
+          </td>
+          <td class="empty-cell"></td>
+          <td>© 2024</td>
+        </tr>
+      </table>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Excellence 2.0 — hw-06</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/modern-normalize.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a
+          class="logo"
+          href="./index.html"
+          aria-label="English Excellence home page"
+        >
+          English Excellence
+        </a>
+
+        <button
+          class="mobile-menu-open"
+          type="button"
+          data-menu-open
+          aria-label="Open mobile menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li><a href="#about">About us</a></li>
+            <li><a href="#lessons">Our lessons</a></li>
+            <li><a href="#teachers">Teachers</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact us</a></li>
+            <li>
+              <a href="Нещеретний_Варіант№5/Нещеретний_№5.html"
+                >Variant 5 table</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="social-list" aria-label="Social links">
+          <li>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              YouTube
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Facebook
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+
+
+    <div class="mobile-menu" data-menu>
+      <div class="mobile-menu__panel">
+        <button
+          class="mobile-menu__close"
+          type="button"
+          data-menu-close
+          aria-label="Close mobile menu"
+        >
+          ×
+        </button>
+        <a class="logo" href="./index.html" aria-label="English Excellence home page">
+          English Excellence
+        </a>
+        <nav class="mobile-menu__nav" aria-label="Mobile navigation">
+          <ul class="mobile-menu__list">
+            <li><a href="#about">About us</a></li>
+            <li><a href="#lessons">Our lessons</a></li>
+            <li><a href="#teachers">Teachers</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact us</a></li>
+            <li>
+              <a href="Нещеретний_Варіант№5/Нещеретний_№5.html">Variant 5 table</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="mobile-social-list" aria-label="Mobile social links">
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+          <li><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+      <section class="section hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Online English school</p>
+            <h1>Discover the joy of learning English with us!</h1>
+            <p class="hero-text">
+              Join our English school and improve your speaking, grammar,
+              vocabulary and confidence with experienced teachers.
+            </p>
+            <a class="button" href="#contact">Leave an application</a>
+          </div>
+          <img
+            class="hero-image"
+            srcset="images/hero-student.jpg 1x, images/hero-student@2x.jpg 2x"
+            src="images/hero-student.jpg"
+            width="660"
+            height="388"
+            alt="A student studies English online at a laptop"
+          />
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow">About the school</p>
+            <h2 class="section-title">About us</h2>
+            <p class="section-text expandable-text" id="course-description">
+              English Excellence is an online English school that helps students
+              learn the language through practical lessons, modern materials and
+              individual support from teachers. We combine speaking practice,
+              grammar explanations, vocabulary training and feedback after each
+              lesson. Students can study at a comfortable pace, repeat difficult
+              topics and choose a course format according to their goals. This
+              longer text block is intentionally limited in height, so JavaScript
+              can expand and collapse it when the user clicks the button below.
+            </p>
+            <button class="read-more-button" type="button" data-read-more>
+              Read more
+            </button>
+
+            <ul class="features">
+              <li>
+                <article class="card">
+                  <svg class="feature-icon" width="64" height="64" role="img" aria-label="Speaking practice icon">
+                    <use href="images/icons.svg#icon-speaking"></use>
+                  </svg>
+                  <h3>01 Expert teachers</h3>
+                  <p>
+                    Our tutors explain difficult topics clearly and help
+                    students speak more freely.
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article class="card">
+                  <svg class="feature-icon" width="64" height="64" role="img" aria-label="Grammar lessons icon">
+                    <use href="images/icons.svg#icon-grammar"></use>
+                  </svg>
+                  <h3>02 Modern materials</h3>
+                  <p>
+                    Lessons include useful exercises, real-life examples and
+                    interactive tasks.
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article class="card">
+                  <svg class="feature-icon" width="64" height="64" role="img" aria-label="Vocabulary training icon">
+                    <use href="images/icons.svg#icon-vocabulary"></use>
+                  </svg>
+                  <h3>03 Individual approach</h3>
+                  <p>
+                    Each student can choose a comfortable pace and focus on
+                    personal goals.
+                  </p>
+                </article>
+              </li>
+              <li>
+                <article class="card">
+                  <svg class="feature-icon" width="64" height="64" role="img" aria-label="Progress tracking icon">
+                    <use href="images/icons.svg#icon-progress"></use>
+                  </svg>
+                  <h3>04 Visible progress</h3>
+                  <p>
+                    Regular practice and feedback help students see their
+                    results faster.
+                  </p>
+                </article>
+              </li>
+            </ul>
+          </div>
+
+          <img
+            class="teacher-image"
+            srcset="images/teacher-avatar.png 1x, images/teacher-avatar@2x.png 2x"
+            src="images/teacher-avatar.png"
+            width="280"
+            height="280"
+            alt="Portrait illustration of an English teacher"
+          />
+        </div>
+      </section>
+
+      <section class="section section-accent" id="lessons">
+        <div class="container">
+          <p class="eyebrow">Learning formats</p>
+          <h2 class="section-title">Our lessons</h2>
+          <p class="section-text">
+            Choose a lesson format that suits your schedule and language level.
+          </p>
+
+          <ul class="lessons-grid">
+            <li>
+              <article class="card card-highlight">
+                <h3>Practice</h3>
+                <p>
+                  Speaking club and short grammar exercises for regular
+                  practice.
+                </p>
+                <p class="price"><strong>40$ / month</strong></p>
+                <a class="button" href="#contact">Choose plan</a>
+              </article>
+            </li>
+            <li>
+              <article class="card card-highlight">
+                <h3>Standard</h3>
+                <p>
+                  Individual lessons with a teacher, homework and progress
+                  feedback.
+                </p>
+                <p class="price"><strong>110$ / month</strong></p>
+                <a class="button" href="#contact">Choose plan</a>
+              </article>
+            </li>
+            <li>
+              <article class="card card-highlight">
+                <h3>Premium</h3>
+                <p>
+                  Personal learning plan, intensive speaking practice and exam
+                  preparation.
+                </p>
+                <p class="price"><strong>195$ / month</strong></p>
+                <a class="button" href="#contact">Choose plan</a>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section slider-section" id="program-slider">
+        <div class="container">
+          <p class="eyebrow">Interactive slider</p>
+          <h2 class="section-title">Course programs</h2>
+          <p class="section-text">
+            Swipe the cards or use the navigation buttons to view available
+            learning programs. The number of visible slides changes according to
+            the browser width.
+          </p>
+
+          <div class="swiper course-swiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <article class="card slider-card">
+                  <h3>Speaking Start</h3>
+                  <p>Short speaking tasks for beginners who want to overcome fear of communication.</p>
+                  <button class="button button-secondary" type="button" data-modal-open>Details</button>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="card slider-card">
+                  <h3>Grammar Base</h3>
+                  <p>Clear grammar explanations, examples and regular practice with a teacher.</p>
+                  <button class="button button-secondary" type="button" data-modal-open>Details</button>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="card slider-card">
+                  <h3>Vocabulary Builder</h3>
+                  <p>Useful vocabulary sets for school, work, travel and everyday communication.</p>
+                  <button class="button button-secondary" type="button" data-modal-open>Details</button>
+                </article>
+              </li>
+              <li class="swiper-slide">
+                <article class="card slider-card">
+                  <h3>Exam Practice</h3>
+                  <p>Tasks for students who need structured preparation and progress checking.</p>
+                  <button class="button button-secondary" type="button" data-modal-open>Details</button>
+                </article>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+            <button class="swiper-button-prev" type="button" aria-label="Previous slide"></button>
+            <button class="swiper-button-next" type="button" aria-label="Next slide"></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="teachers">
+        <div class="container">
+          <p class="eyebrow">Our team</p>
+          <h2 class="section-title">Meet our teachers</h2>
+          <p class="section-text">
+            Our teachers make English lessons clear, friendly and useful for
+            real communication.
+          </p>
+
+          <div class="teachers-grid">
+            <article class="card">
+              <h3>Anna Smith</h3>
+              <p>
+                English tutor with experience in teaching beginners and
+                intermediate students.
+              </p>
+            </article>
+
+            <article class="card">
+              <h3>Mary Wilson</h3>
+              <p>
+                Teacher focused on speaking practice, pronunciation and business
+                English.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-accent" id="reviews">
+        <div class="container">
+          <p class="eyebrow">Student opinion</p>
+          <h2 class="section-title">Reviews</h2>
+          <article class="card review-card">
+            <h3>Student feedback</h3>
+            <p>
+              “The lessons helped me speak more confidently and understand
+              English grammar better.”
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact form</p>
+            <h2 class="section-title">Contact us</h2>
+            <p class="section-text">
+              Leave your contact information and we will help you choose the
+              best learning plan.
+            </p>
+          </div>
+
+          <form class="contact-form" action="#" method="post" data-contact-form>
+            <div class="form-field">
+              <label for="user-name">Name</label>
+              <input
+                type="text"
+                id="user-name"
+                name="user-name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="user-email">Email</label>
+              <input
+                type="email"
+                id="user-email"
+                name="user-email"
+                placeholder="Your email"
+                required
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="user-phone">Phone</label>
+              <input
+                type="tel"
+                id="user-phone"
+                name="user-phone"
+                placeholder="Your phone number"
+                required
+              />
+            </div>
+
+            <div class="form-field">
+              <label for="lesson-level">English level</label>
+              <select id="lesson-level" name="lesson-level" required>
+                <option value="">Choose your level</option>
+                <option value="beginner">Beginner</option>
+                <option value="elementary">Elementary</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="user-message">Message</label>
+              <textarea
+                id="user-message"
+                name="user-message"
+                rows="4"
+                placeholder="Your message"
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-check">
+              <input
+                type="checkbox"
+                id="privacy-policy"
+                name="privacy-policy"
+                required
+              />
+              <label for="privacy-policy">
+                I agree to the processing of my contact information.
+              </label>
+            </div>
+
+            <button class="button" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <div class="modal-backdrop" data-modal hidden>
+      <div
+        class="modal-window"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <button
+          class="modal-close"
+          type="button"
+          data-modal-close
+          aria-label="Close modal window"
+        >
+          ×
+        </button>
+        <p class="eyebrow">Program details</p>
+        <h2 class="section-title" id="modal-title">English course information</h2>
+        <p class="section-text">
+          This program includes online lessons, homework, teacher feedback and
+          practical communication tasks. You can leave your contact information
+          in the form and the school will help you choose the most suitable plan.
+        </p>
+        <a class="button" href="#contact" data-modal-contact>Go to contact form</a>
+      </div>
+    </div>
+
+    <a class="floating-link" href="#home" aria-label="Back to top">↑</a>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a
+          class="logo footer-logo"
+          href="./index.html"
+          aria-label="English Excellence home page"
+        >
+          English Excellence
+        </a>
+        <p>Online English school for confident communication.</p>
+        <p>© 2026 English Excellence. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="mobile-menu.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

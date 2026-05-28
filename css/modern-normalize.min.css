@@ -1,0 +1,2 @@
+/*! Minimal modern normalize for lab project */
+*,*::before,*::after{box-sizing:border-box}html{line-height:1.15;-webkit-text-size-adjust:100%;tab-size:4}body{margin:0}main{display:block}h1,h2,h3,p,ul,ol,figure,blockquote{margin:0}ul,ol{padding:0}img,picture,svg{display:block;max-width:100%;height:auto}button,input,select,textarea{font:inherit}button{border:0}a{background-color:transparent}table{border-collapse:collapse}textarea{resize:vertical}input:focus,button:focus,select:focus,textarea:focus,a:focus{outline-offset:3px}
